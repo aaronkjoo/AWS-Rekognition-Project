@@ -4,6 +4,6 @@
   </h1>
 </head>
 <body>
-  This project is focused on building an image labels generator using Amazon Rekognition. The user inputs an image and the AWS service will identify and label the image. 
+  This project is focused on building an image labels generator using Amazon Rekognition. The user inputs an image and the AWS service will identify and label the image. <br>
   ![Figure 1](./Figure_1.png)
 </body>
