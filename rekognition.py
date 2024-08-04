@@ -50,8 +50,8 @@ def detect_labels(photo, bucket):
     return len(response['Labels'])
 
 def main():
-    photo = 'coffee-2.jpeg'
-    bucket = 's3://aws-rekognition-label-images-joo'
+    photo = 'image1.png'
+    bucket = 'aws-rekognition-images-joo'
     label_count = detect_labels(photo, bucket)
     print("Labels detected:", label_count)
 
